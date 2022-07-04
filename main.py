@@ -1,4 +1,5 @@
 """Шифр Цезаря, (с) Эл Свейгарт"""
+
 try:
     import pyperclip
 except ImportError:
@@ -62,8 +63,3 @@ try:
     print('Full {}ed text copied to clipboard.'.format(mode))
 except:
     pass
-
-
-
-
-
